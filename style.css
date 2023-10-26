@@ -1,0 +1,105 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: green ;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: green;
+  color: green;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: green;
+}
+
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color:green ;
+  margin: 0;
+  padding: 20px;
+}
+
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color:green ;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+table {
+  width: 80%; /* Set your desired width here */
+  margin: 0 auto; /* Center the table */
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: green;
+  overflow-x: auto;
+}
+
+th, td {
+  border: 1px  green;
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: green;
+}
+
+.buy-now {
+  background-color: green;
+  color: green;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.buy-now:hover {
+  background-color: green;
+}
